@@ -1,5 +1,3 @@
-#! /usr/bin/env python3
-#Função de mostrar os 12 dias retratados na musica
 def displayVerse(m):
 	print("One the ",m, "day of christmas")
 	print("my true love sent to me:")
