@@ -1,3 +1,4 @@
+#! /usr/bin/env python3
 #Determina os valores para serem calculados na mediana.
 a = float(input("Digite o primeiro valor: "))
 b = float(input("Digite o segundo valor: "))

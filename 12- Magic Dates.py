@@ -1,3 +1,4 @@
+#! /usr/bin/env python3
 from datetime import date, timedelta
 #verifica o range de datas disponíveis.
 def dateRange(begin, end):

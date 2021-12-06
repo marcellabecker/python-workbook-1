@@ -1,4 +1,6 @@
-def displayVerse(m):
+#! /usr/bin/env python3
+#função que tenha o número da estrofe como seu único parâmetro.
+def Versos(m):
 	print("One the ",m, "day of christmas")
 	print("my true love sent to me:")
 	if(m>=12):
@@ -29,7 +31,9 @@ def displayVerse(m):
 		print("and a", end=" ")
 	print("partridge in a pear tree.")
 	print()
+
+#função chamada 12 vezes com números inteiros que aumentam de 1 a 12
 def main():
-	for verse in range(1, 13):
-		displayVerse(verse)
+	for verso in range(1, 12):
+		Versos(verso)
 main()
